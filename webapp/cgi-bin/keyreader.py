@@ -5,6 +5,6 @@ def getkey(loc):
 			key_list = key_list.split('\n')
 			for each_item in key_list:
 				print("<br><a>" + each_item + "</a>")
-
+//just
 	except IOError as err:
 		print('File Error: ' + str(err))
